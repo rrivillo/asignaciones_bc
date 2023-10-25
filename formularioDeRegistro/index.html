@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+
+<body>
+  <h1>Registration Form</h1>
+  <form method="post">
+    <div>
+      <label>First Name: *</label>
+      <input type="text" name="first_name" /> <br>
+      <label>Last Name: *</label>
+      <input type="text" name="last_name" /> <br>
+      <label>Enail Address: *</label>
+      <input type="email" name="email" /> <br>
+      <label>Password: *</label>
+      <input type="password" name="password" /> <br>
+      <label>Confirm Password: *</label>
+      <input type="password" name="confirm_password" /> <br>
+      <label>Birthday: </label>
+      <input type="date" /> <br>
+    </div>
+    <br>
+    <div>
+      <label>Gender Identity</label> <br>
+      <input type="radio" name="gender_identity" value="male" id="id_male" />
+      <label for="id_male">Male</label>
+      <input type="radio" name="gender_identity" value="female" id="id_female" />
+      <label for="id_male">Female</label>
+      <input type="radio" name="gender_identity" value="non_binary" id="id_nonBinary" />
+      <label for="id_nonBinary">Non-Binary</label>
+      <input type="radio" name="gender_identity" value="no_answer" id="id_noAnswer" />
+      <label for="id_noAnswer">I prefer not to answer</label>
+    </div>
+    <br>
+    <div>
+      <label>A short description about myself</label> <br>
+      <textarea cols="60" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+      <label for="languages">Favorite Language</label>
+      <select id="languages" name="languages">
+        <option>JavaScript</option>
+        <option>PHP</option>
+        <option>Python</option>
+        <option>C++</option>
+        <option>Rust</option>
+        <option>Java</option>
+        <option>Golang</option>
+        <option>Cobol</option>
+      </select>
+    </div>
+    <div>
+      <input type="checkbox" name="email_updates" id="id_emailUpdates" />
+      <label for="id_emailUpdates">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <div>
+      <br>
+      <input type="submit" value="Create Account" />
+    </div>
+  </form>
+  <p>* Indicates a required field</p>
+</body>
+
+</html>
