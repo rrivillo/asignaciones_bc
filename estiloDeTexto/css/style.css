@@ -1,0 +1,28 @@
+#mycloud{
+  background-color: black;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#completedProjects{
+  background-color: #663399;
+  color: #FFFFFF;
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+#contactContainer{
+  background-color: #9FC5F8;
+
+}
+
+#contactContainer > h3{
+  color:#221550;
+  font-size: 18px;
+  text-align: right;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
